@@ -1,3 +1,44 @@
+
+# FaceMesh React app with Tensorflow js api
+This app creates a real time facemesh app using React and Tensorflow js & node
+
+
+
+![alt tag](http://placecorgi.com/1200/650)
+
+## How It's Made:
+
+**Tech used:** HTML, CSS, JavaScript, React, Tensorflow js, Node   
+  Began by installing dependencies : tensorflow js : facial landmark ml model: react webcam  
+  Nex step was to import dependencies by setting up React webcam & canvas to draw the real time face mesh points using the landmark detection model 
+ 
+  Defined reference to the landmark detection points & loaded real time facemesh detection via triangulation paths using drawMesh to detect the paths
+
+
+Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+
+## Optimizations
+
+Increase the set interval detection to above 300  
+Add an additional Tensorflow js training module to detect real time emotion so this will be a useable project to build an emotional skills training & recognition app
+## Lessons Learned:
+
+✔️How to load a pre-trained TensorFlow.js model.  
+✔️How to grab data from a live webcam stream and draw it to canvas.  
+✔️How to integrate it will React to create a real time data stream.  
+✔️How to use the data passed back from the model to create a facial mesh.  
+
+<!------## Examples:
+Take a look at these couple examples that I have in my own portfolio:
+
+**Palettable:** https://github.com/alecortega/palettable
+
+**Twitter Battle:** https://github.com/alecortega/twitter-battle
+
+**Patch Panel:** https://github.com/alecortega/patch-panel  ---->
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
